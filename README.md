@@ -2,6 +2,10 @@
 
 A comprehensive Point of Sale (POS) application designed specifically for jewelry businesses. Built with modern Android development practices using Kotlin, this app helps jewelry shop owners manage their inventory, customers, sales, and business operations efficiently.
 
+[![Download on Google Play](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.jewelrypos.swarnakhatabook)
+
+**Download from Google Play Store**: [Swarna Khata Book](https://play.google.com/store/apps/details?id=com.jewelrypos.swarnakhatabook)
+
 ## 🌟 Features
 
 ### 🏪 Multi-Shop Management
@@ -67,7 +71,15 @@ A comprehensive Point of Sale (POS) application designed specifically for jewelr
 
 ## 📱 Screenshots
 
-*Screenshots would be added here showing the main features of the app*
+![App Screenshot 1](https://github.com/user-attachments/assets/d4148c61-01cf-4acf-a5f7-0f318fd6a4ed)
+
+![App Screenshot 2](https://github.com/user-attachments/assets/258fce69-f431-4a57-8938-38f771b97143)
+
+![App Screenshot 3](https://github.com/user-attachments/assets/4a7f09f8-89a9-4757-a994-af4298eaef4f)
+
+![App Screenshot 4](https://github.com/user-attachments/assets/b7c33c61-757a-494c-a262-ccf30ad9d3c2)
+
+![App Screenshot 5](https://github.com/user-attachments/assets/c7748e62-ad72-439f-ba5b-f99c191578dd)
 
 ## 🚀 Getting Started
 
@@ -185,7 +197,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For support and questions:
 - Create an issue in this repository
-- Contact: [your-email@example.com]
+- Contact: goldinvoice0@gmail.com
+- **Download the app**: [Google Play Store](https://play.google.com/store/apps/details?id=com.jewelrypos.swarnakhatabook)
 
 ## 🎯 Roadmap
 
