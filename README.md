@@ -60,96 +60,31 @@ A comprehensive Point of Sale (POS) application designed specifically for jewelr
 - **Database**: 
   - Firebase Firestore (Cloud)
   - Room Database (Local)
-- **UI**: Material Design 3
+- **UI**: Material Design 3, Constraint Layout, ViewPager2, Animated Bottom Bar
 - **Navigation**: Navigation Component
 - **State Management**: LiveData, ViewModel
-- **Image Loading**: Picasso
-- **PDF Generation**: PDFBox
+- **Image Loading**: Picasso, Coil
+- **PDF Generation**: PDFBox, Android PDF Viewer
 - **Charts**: MPAndroidChart
+- **Networking**: OkHttp
+- **Async Programming**: Kotlin Coroutines
+- **Security**: Biometric Authentication, Security Crypto
+- **QR Code**: ZXing Core
+- **Signature**: Signature Pad
+- **Document Processing**: Apache POI
+- **Google Services**: Firebase Suite, Play Billing, App Updates
+- **Testing**: JUnit, Mockito, Espresso, Robolectric
 - **Dependency Injection**: Manual DI
-- **Testing**: JUnit, Mockito, Espresso
 
 ## 📱 Screenshots
 
-![App Screenshot 1](https://github.com/user-attachments/assets/d4148c61-01cf-4acf-a5f7-0f318fd6a4ed)
-
-![App Screenshot 2](https://github.com/user-attachments/assets/258fce69-f431-4a57-8938-38f771b97143)
-
-![App Screenshot 3](https://github.com/user-attachments/assets/4a7f09f8-89a9-4757-a994-af4298eaef4f)
-
-![App Screenshot 4](https://github.com/user-attachments/assets/b7c33c61-757a-494c-a262-ccf30ad9d3c2)
-
-![App Screenshot 5](https://github.com/user-attachments/assets/c7748e62-ad72-439f-ba5b-f99c191578dd)
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Android Studio Arctic Fox or later
-- Android SDK 26+ (Android 8.0+)
-- Kotlin 1.8+
-- Firebase project setup
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/SwarnaKhataBook.git
-   cd SwarnaKhataBook
-   ```
-
-2. **Open in Android Studio**
-   - Open Android Studio
-   - Select "Open an existing project"
-   - Navigate to the cloned directory
-
-3. **Firebase Setup**
-   - Create a new Firebase project
-   - Add your Android app to the project
-   - Download `google-services.json` and place it in the `app/` directory
-   - Enable Firestore, Authentication, and Cloud Messaging
-
-4. **Build and Run**
-   ```bash
-   ./gradlew assembleDebug
-   ```
-
-## 📁 Project Structure
-
-```
-app/
-├── src/main/java/com/jewelrypos/swarnakhatabook/
-│   ├── Adapters/              # RecyclerView adapters
-│   ├── BottomSheet/           # Bottom sheet components
-│   ├── DataClasses/           # Data models and entities
-│   ├── Enums/                 # Enumeration classes
-│   ├── Events/                # Event handling
-│   ├── Factorys/              # ViewModel factories
-│   ├── Repository/            # Data repositories
-│   ├── Services/              # Background services
-│   ├── Utilitys/              # Utility classes
-│   ├── ViewModle/             # ViewModels
-│   └── MainActivity.kt        # Main activity
-├── src/main/res/
-│   ├── layout/                # XML layouts
-│   ├── values/                # Strings, colors, themes
-│   ├── drawable/              # Icons and images
-│   └── navigation/            # Navigation graphs
-└── build.gradle.kts           # App-level build configuration
-```
-
-## 🔧 Configuration
-
-### Firebase Configuration
-1. Create a Firebase project
-2. Enable Authentication (Phone)
-3. Enable Firestore Database
-4. Enable Cloud Messaging
-5. Add your app's SHA-1 fingerprint
-
-### App Configuration
-- Update `google-services.json` with your Firebase configuration
-- Configure notification channels in `NotificationChannelManager`
-- Set up billing for premium features (if applicable)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d4148c61-01cf-4acf-a5f7-0f318fd6a4ed" width="200"/>
+  <img src="https://github.com/user-attachments/assets/258fce69-f431-4a57-8938-38f771b97143" width="200"/>
+  <img src="https://github.com/user-attachments/assets/4a7f09f8-89a9-4757-a994-af4298eaef4f" width="200"/>
+  <img src="https://github.com/user-attachments/assets/b7c33c61-757a-494c-a262-ccf30ad9d3c2" width="200"/>
+  <img src="https://github.com/user-attachments/assets/c7748e62-ad72-439f-ba5b-f99c191578dd" width="200"/>
+</p>
 
 ## 📋 Key Features Implementation
 
@@ -180,43 +115,4 @@ Run tests:
 ./gradlew test
 ./gradlew connectedAndroidTest
 ```
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📞 Support
-
-For support and questions:
-- Create an issue in this repository
-- Contact: goldinvoice0@gmail.com
-- **Download the app**: [Google Play Store](https://play.google.com/store/apps/details?id=com.jewelrypos.swarnakhatabook)
-
-## 🎯 Roadmap
-
-- [ ] Multi-language support
-- [ ] Advanced reporting features
-- [ ] Barcode scanning for inventory
-- [ ] Cloud backup and sync
-- [ ] Advanced analytics dashboard
-- [ ] Integration with accounting software
-
-## 🙏 Acknowledgments
-
-- Material Design 3 for beautiful UI components
-- Firebase for backend services
-- MPAndroidChart for data visualization
-- PDFBox for PDF generation
-- All contributors and testers
-
----
-
 **SwarnaKhataBook** - Making jewelry business management simple and efficient! 💎✨
